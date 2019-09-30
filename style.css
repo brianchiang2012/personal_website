@@ -1,110 +1,115 @@
 
-#navbar_1{
+#starting-section div
+{
+  flex-basis: 700px;
+}
+.starting-flexbox-container
+{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+.starting-quote-flex-item
+{
+  flex-basis: 40%;
 
+}
+.starting-image-flex-item
+{
+  flex-basis: 20%;
+}
+#icon
+{
+  height: auto;
+  width: auto;
+  max-width: 25px;
+  max-height: 25px;
 
-    width: 400px;
-    margin: 0 auto;
-    background-color: #FFFFFF;
 
 }
 
-.center-fit{
+#photo
+{
+    height: auto;
+    width: auto;
+    max-width: 300px;
+    max-height: 300px;
+}
 
-  max-width: 100%;
-  max-height: 100%;
-  margin: auto;
+#quote
+{
+  text-align:left;
+  font-size: 40px;
+  padding-top: 196px;
+  padding-left: 160px;
+}
+#iam{
+  text-align:left;
+  font-size: 90px;
+  padding-top: 196px;
+  padding-left: 160px;
+}
+#hobbies
+{
+  text-align: left;
+  font-size: 48px;
+  padding-left: 160px;
+  color: gray;
+  font-family: "Open Sans";
+}
+
+#about-me-text
+{
+
 
 
 }
 
-.flex-box-project{
+
+#subtitle
+{
+    text-align: center;
+    font-size: 48px;
+    color:black;
+    font-family: "Open Sans"
+
+}
+
+.flex-container-about-me
+{
 
   display: flex;
+  justify-content: center;
   flex-direction: row;
-  justify-content: space-evenly; 
+
+
+}
+
+.flex-container
+{
+
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+
+
+}
+#paragraph {
+    font-size: 24px;
+
+
+}
+
+a{
+  font-size: 20px;
 
 
 }
 
 hr{
-
-  border: 1px solid black;
-  width: 80%
-
-}
-
-.img_cropper {
-    width: 200px;
-    height: 200px;
-    display: block;
-    text-align: center;
-    overflow: hidden;
-    border-radius: 50%;
-}
-
-#profile_pic{
-text-align: center;
-    height: 100%;
-
-}
-#image-properties{
-  width: 20%;
-
-
-}
-.nav-link{
-  font-size: 17px;
-
-
-}
-
-.flex-container{
-  display: flex;
-  justify-content: space-evenly;
-  flex-direction: row;
-
-
-}
-.flex-container-navbar{
-  display: flex;
-  justify-content: space-evenly;
-  flex-direction: row;
-}
-
-.flex-container-user-info{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
-}
-
-#background{
-
-  width: 50%;
-
-
-}
-html {
-
-  scroll-behavior: smooth;
-
-}
-
-h2{
-  text-align: center;
-  font-size : 54px;
-
-}
-
-h3{
-  text-align: left;
-  font-size: 48
-
-
-}
-
-#link{
-
-  text-align:center;
-
+  border: 1px solid;
+  width: 75%;
+  margin: auto;
+  margin-top: 1%;
+  margin-bottom: 2%;
 }
