@@ -3,32 +3,57 @@
 {
   flex-basis: 700px;
 }
+
+.intro-flexbox-container
+{
+
+  padding-top: 3%;
+  justify-content: center;
+  flex-direction:row;
+}
+
 .starting-flexbox-container
 {
+  padding-top: 3%;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   flex-direction: row;
 }
+
 .starting-quote-flex-item
 {
-  flex-basis: 40%;
-
+  flex-basis: 35%;
+  padding-left: 7%;
 }
 .starting-image-flex-item
 {
   flex-basis: 20%;
 }
+
 #icon
 {
   height: auto;
   width: auto;
   max-width: 25px;
   max-height: 25px;
+}
+.background-text
+{
+  margin: 0 auto;
+  color: white;
 
 
 }
-
-#photo
+.vertical-center
+{
+  background-image: url(images/background.jpg) ;
+  background-size: cover;
+  display: flex;
+  width: 100%;
+  height:100vh;
+  align-items: center;
+}
+#self_photo
 {
     height: auto;
     width: auto;
@@ -36,27 +61,13 @@
     max-height: 300px;
 }
 
-#quote
+#title
 {
-  text-align:left;
+  font-family: "Times New Roman";
+  text-align:center;
   font-size: 40px;
-  padding-top: 196px;
-  padding-left: 160px;
 }
-#iam{
-  text-align:left;
-  font-size: 90px;
-  padding-top: 196px;
-  padding-left: 160px;
-}
-#hobbies
-{
-  text-align: left;
-  font-size: 48px;
-  padding-left: 160px;
-  color: gray;
-  font-family: "Open Sans";
-}
+
 
 #about-me-text
 {
@@ -65,14 +76,26 @@
 
 }
 
+#contact_icons
+{
+  width: 50px;
+  height: 50px;
+
+}
 
 #subtitle
 {
     text-align: center;
     font-size: 48px;
-    color:black;
+    color: #026C45;
     font-family: "Open Sans"
 
+}
+
+.light-yellow-background
+{
+
+  background-color: #FFFFE0	;
 }
 
 .flex-container-about-me
@@ -82,22 +105,19 @@
   justify-content: center;
   flex-direction: row;
 
-
 }
 
-.flex-container
+.flex-container-contact-icons
 {
 
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   flex-direction: row;
 
 
 }
 #paragraph {
     font-size: 24px;
-
-
 }
 
 a{
@@ -106,9 +126,9 @@ a{
 
 }
 
-hr{
+.title-sep-line{
   border: 1px solid;
-  width: 75%;
+  width: 80%;
   margin: auto;
   margin-top: 1%;
   margin-bottom: 2%;
