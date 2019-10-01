@@ -1,51 +1,58 @@
-
-#starting-section div
-{
-  flex-basis: 700px;
-}
-
-.intro-flexbox-container
-{
-
-  padding-top: 3%;
-  justify-content: center;
-  flex-direction:row;
-}
-
-.starting-flexbox-container
-{
-  padding-top: 3%;
+/* Classes */
+.experience-flex-box{
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.experience-resume-item
+{
+  display: flex;
+  justify-content: space-around;
   flex-direction: row;
+
+}
+.experience-flex-left-item
+{
+  /* Composed of the company name
+      Position */
+  flex-basis: 40%;
 }
 
-.starting-quote-flex-item
+.experience-flex-right-item
 {
+  /*Composed of the duration/time period
+    and description of the position
+    */
+
+  flex-basis: 25%
+
+}
+
+.about-me-text-flex-item
+{
+  /* Flex item style for the text
+     inside the about me section
+  */
   flex-basis: 35%;
   padding-left: 7%;
 }
-.starting-image-flex-item
+.personal-photo-flex-item
 {
   flex-basis: 20%;
 }
 
-#icon
-{
-  height: auto;
-  width: auto;
-  max-width: 25px;
-  max-height: 25px;
-}
 .background-text
 {
+  /* Style for the background text
+     of the initial photo on the top
+     of the screen */
   margin: 0 auto;
   color: white;
-
-
 }
 .vertical-center
 {
+  /* style jumbotron at the very top of the page
+     with a background photo covering screen initially*/
   background-image: url(images/background.jpg) ;
   background-size: cover;
   display: flex;
@@ -53,8 +60,46 @@
   height:100vh;
   align-items: center;
 }
+
+.light-yellow-background
+{
+  background-color: #FFFFE0	;
+}
+
+.flex-container-about-me
+{
+  /* style for the flex container of then
+     about me section */
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.flex-container-contact-icons
+{
+  /*style for the flex container containing
+    contact icons*/
+
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.title-sep-line{
+  /*style for line separator
+    create a solid line every time
+    invoked */
+  border: 1px solid;
+  width: 80%;
+  margin: auto;
+  margin-top: 1%;
+  margin-bottom: 2%;
+}
+
+/*IDs*/
 #self_photo
 {
+    /*style for photos of myself*/
     height: auto;
     width: auto;
     max-width: 300px;
@@ -68,16 +113,9 @@
   font-size: 40px;
 }
 
-
-#about-me-text
-{
-
-
-
-}
-
 #contact_icons
 {
+  /*style pictures of gmail, github, linkedin*/
   width: 50px;
   height: 50px;
 
@@ -85,51 +123,26 @@
 
 #subtitle
 {
+  /*style for titles such as "experience" and such*/
     text-align: center;
     font-size: 48px;
     color: #026C45;
     font-family: "Open Sans"
-
 }
 
-.light-yellow-background
+#icon-document
 {
-
-  background-color: #FFFFE0	;
+  /*style for document icon (resume download)*/
+  height: auto;
+  width: auto;
+  max-width: 25px;
+  max-height: 25px;
 }
 
-.flex-container-about-me
-{
-
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-
-}
-
-.flex-container-contact-icons
-{
-
-  display: flex;
-  justify-content: space-around;
-  flex-direction: row;
-
-
-}
 #paragraph {
     font-size: 24px;
 }
 
 a{
   font-size: 20px;
-
-
-}
-
-.title-sep-line{
-  border: 1px solid;
-  width: 80%;
-  margin: auto;
-  margin-top: 1%;
-  margin-bottom: 2%;
 }
