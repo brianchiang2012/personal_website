@@ -1,4 +1,6 @@
 /* Classes */
+
+
 .experience-flex-box{
   display: flex;
   justify-content: space-between;
@@ -18,7 +20,7 @@
   /* Composed of the company name
       Position */
   flex-basis: 35%;
-  margin-top: 3%;
+  margin-top: 1.5%;
 }
 
 .experience-flex-right-item
@@ -26,7 +28,7 @@
   /*Composed of the duration/time period
     and description of the position
     */
-  margin-top:3%;
+  margin-top:1.5%;
   flex-basis: 25%
 
 }
@@ -100,6 +102,15 @@
 }
 
 /*IDs*/
+
+#project_items{
+  height: auto;
+  width: auto;
+  max-width: 400px;
+  max-height: 300px;
+
+}
+
 #self_photo
 {
     /*style for photos of myself*/
@@ -143,15 +154,8 @@
 }
 
 #paragraph {
-    font-size: 24px;
-}
-
-#experience-body-text
-{
-  /*Style for the body text inside
-    the experience section */
-
-
+    font-size: 20px;
+    font-family: "Open Sans"
 }
 
 #experience-title
@@ -161,7 +165,6 @@
     such as the company name
   */
   font-size: 24px;
-
   font-family: "Open Sans"
 
 }
