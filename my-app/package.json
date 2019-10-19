@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "html-react-parser": "^0.9.1",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
     "react-scripts": "3.2.0",
@@ -31,5 +32,4 @@
     "tsdx": "^0.10.5",
     "webpack-cli": "^3.0.6"
   }
-  
 }
