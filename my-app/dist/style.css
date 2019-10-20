@@ -5,8 +5,8 @@
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-
 }
+
 .experience-resume-item
 {
   display: flex;
@@ -93,8 +93,8 @@
   /*style for line separator
     create a solid line every time
     invoked */
-  border: 0.5px solid;
-  width: 80%;
+  border: 0.75px solid;
+  width: 80vw;
   margin: auto;
   margin-top: 1%;
   margin-bottom: 2%;
@@ -106,32 +106,31 @@
 #project_items{
   height: auto;
   width: auto;
-  max-width: 400px;
-  max-height: 300px;
+  max-width: 40vw;
+  max-height: 30vh;
 
 }
 
 #self_photo
 {
     /*style for photos of myself*/
-    height: auto;
-    width: auto;
-    max-width: 300px;
-    max-height: 300px;
+    height: 18vw;
+    width: 18vw;
+
 }
 
 #title
 {
   font-family: "Times New Roman";
   text-align:center;
-  font-size: 40px;
+  font-size: 4vw;
 }
 
 #contact_icons
 {
   /*style pictures of gmail, github, linkedin*/
-  width: 50px;
-  height: 50px;
+  width: 5vw;
+  height: 8vh;
 
 }
 
@@ -139,7 +138,7 @@
 {
   /*style for titles such as "experience" and such*/
     text-align: center;
-    font-size: 48px;
+    font-size: 2.5vw;
     color: #026C45;
     font-family: "Open Sans"
 }
@@ -154,7 +153,7 @@
 }
 
 #paragraph {
-    font-size: 28px;
+    font-size: 1.5vw;
     font-family: "Open Sans"
 
 }
@@ -165,7 +164,7 @@
     inside the experience section
     such as the company name
   */
-  font-size: 32px;
+  font-size: 2vw;
   font-family: "Open Sans"
 
 }
