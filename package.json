@@ -12,7 +12,7 @@
 
   },
   "scripts": {
-    "prepublish":"react-reveal",
+    "install": "install react-reveal",
     "start": "webpack-dev-server --config ./webpack.config.js --mode development "
   },
   "eslintConfig": {
