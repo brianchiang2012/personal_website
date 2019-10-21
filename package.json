@@ -3,17 +3,17 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "framer-motion": "^1.6.14",
     "html-react-parser": "^0.9.1",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
-    "react-scripts": "3.2.0",
     "react-reveal": "1.2.2",
+    "react-scripts": "3.2.0",
     "webpack": "^4.20.2",
     "webpack-dev-server": "^3.1.4"
-
   },
   "scripts": {
-    "start": "webpack --open --config ./webpack.config.js --mode production"
+    "start": "webpack --config ./webpack.config.js --mode production "
   },
   "eslintConfig": {
     "extends": "react-app"

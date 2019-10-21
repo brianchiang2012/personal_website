@@ -4,6 +4,13 @@ import React, {Component} from 'react';
 import ReactDOM from 'react-dom'
 import Zoom from 'react-reveal/Zoom'
 import Fade from 'react-reveal/Fade'
+import {motion} from 'framer-motion'
+const styles = {
+  outline: "none",
+  border: "none",
+  background:"white",
+  cursor: "pointer"
+};
 
 class About_Me_Title_Fade extends React.Component
 {
@@ -39,13 +46,18 @@ class About_Me_Content_Fade extends React.Component
 
                 <div class = "experience-flex-right-item">
                   <body id = "paragraph" > Hi there! I'm a 3rd year Computer Science major at UCI that is based in Orange County.
-                    My hobbies include reading, exercising, music, and gaming.
+                    My hobbies include reading, exercising, listening to music, and gaming.
                     I love constantly learning new things in computer science and furthering my skills in any way possible.
-                    Also, I'm a huge fan of working in teams. You learn a lot more with different perspectives working along with you.
 
                   </body>
                   <br/>
+                    <motion.button
+                      style={styles}
+                      whileHover={{ scale: 1.1 }}
+                      whileTap={{ scale: 0.9, x: "-5px", y: "5px" }}
+                    >
                     <a href = "download/resume.pdf" download = "bchiangResume.pdf"> <div> <img src = "images/document.png" id = "icon-document"/></div>  Resume </a>
+                    </motion.button>
                 </div>
 
               </div>
@@ -200,11 +212,18 @@ class Projects_Content_Fade extends React.Component
                  <div class = "experience-resume-item">
                    <div class ="experience-flex-left-item">
 
-                     <a href = "https://planeater.appspot.com/" >
-                        <div>
-                       <img src = "images/planeater.png" alt = "Planeater" id = "project_items"></img>
-                       </div>
-                     </a>
+
+                     <motion.button
+                      style = {styles}
+                       whileHover={{ scale: 1.1 }}
+                       whileTap={{ scale: 0.9, x: "-5px", y: "5px" }}
+                     >
+                       <a href = "https://planeater.appspot.com/" target="_blank" >
+                          <div>
+                         <img src = "images/planeater.png" alt = "Planeater" id = "project_items"></img>
+                         </div>
+                       </a>
+                    </motion.button>
                    </div>
                    <div class = "experience-flex-right-item">
                      <h1 id = "experience-title">
@@ -220,9 +239,21 @@ class Projects_Content_Fade extends React.Component
                  </div>
                  <div class = "experience-resume-item">
                    <div class ="experience-flex-left-item">
-                    <div>
-                     <img src = "images/personal_website_project.png" alt = "Personal Website" id = "project_items"/>
-                    </div>
+
+                     <div>
+                       <motion.button
+                         style={styles}
+                         whileHover={{ scale: 1.1 }}
+                         whileTap={{ scale: 0.9, x: "-5px", y: "5px" }}
+                       >
+                          <a href = "https://github.com/brianchiang2012/personal_website"   target = "_blank">
+
+
+                              <  img src = "images/personal_website_project.png" alt = "Personal Website" id = "project_items"/>
+
+                          </a>
+                      </motion.button>
+                      </div>
                    </div>
                    <div class = "experience-flex-right-item">
                      <h1 id = "experience-title">

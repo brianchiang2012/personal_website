@@ -2,6 +2,11 @@
 
 
 .experience-flex-box{
+  /*
+    Style for experience section
+    Class is composed of resume-items, defined
+    below
+  */
   display: flex;
   justify-content: space-between;
   flex-direction: column;
@@ -9,6 +14,11 @@
 
 .experience-resume-item
 {
+  /*
+    Style for each item in the resume section
+    Each resume item is composed of a left and right item:
+    2 components inside
+  */
   display: flex;
   justify-content: center;
   flex-direction: row;
@@ -17,7 +27,7 @@
 }
 .experience-flex-left-item
 {
-  /* Composed of the company name
+  /* Composed of the company name and
       Position */
   flex-basis: 45%;
   margin-top: 1.5%;
@@ -104,11 +114,9 @@
 /*IDs*/
 
 #project_items{
-  height: auto;
-  width: auto;
-  max-width: 40vw;
-  max-height: 30vh;
-
+  /* Style for photos inside the Projects Section*/
+  height: 30vh;
+  width: 25vw;
 }
 
 #self_photo
@@ -116,12 +124,11 @@
     /*style for photos of myself*/
     height: 18vw;
     width: 18vw;
-
 }
 
 #title
 {
-  font-family: "Times New Roman";
+  font-family: "Candara";
   text-align:center;
   font-size: 4vw;
 }
@@ -129,8 +136,8 @@
 #contact_icons
 {
   /*style pictures of gmail, github, linkedin*/
-  width: 5vw;
-  height: 8vh;
+  width: 4vw;
+  height: 6vh;
 
 }
 
@@ -140,7 +147,7 @@
     text-align: center;
     font-size: 2.5vw;
     color: #026C45;
-    font-family: "Open Sans"
+    font-family: "Candara"
 }
 
 #icon-document
@@ -153,8 +160,8 @@
 }
 
 #paragraph {
-    font-size: 1.5vw;
-    font-family: "Open Sans"
+    font-size: 1.25vw;
+    font-family: "Candara"
 
 }
 
@@ -164,8 +171,8 @@
     inside the experience section
     such as the company name
   */
-  font-size: 2vw;
-  font-family: "Open Sans"
+  font-size: 1.75vw;
+  font-family: "Candara"
 
 }
 
