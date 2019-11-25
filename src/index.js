@@ -8,7 +8,7 @@ import {motion} from 'framer-motion'
 const styles = {
   outline: "none",
   border: "none",
-  background:"white",
+  background:"none",
   cursor: "pointer"
 };
 
@@ -275,6 +275,63 @@ class Projects_Content_Fade extends React.Component
     );
   }
 }
+
+class Navbar_Content extends React.Component
+{
+  render(){
+    return(
+      <div class = "container">
+          <li class="nav-item">
+
+            <a href="mailto:brianchiang2012@gmail.com" target= "_blank">
+
+                <motion.button
+                  style={styles}
+                  whileHover={{ scale: 1.1 }}
+                  whileTap={{ scale: 0.9, x: "-5px", y: "5px" }}
+                >
+                  <img src="images/email.png" alt="Gmail" id = "contact_icons"/>
+                </motion.button>
+            </a>
+
+          </li>
+
+          <li class="nav-item">
+            <a href="https://www.linkedin.com/in/brian-chiang-596347145/" target = "_blank">
+
+
+            <motion.button
+              style={styles}
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.9, x: "-5px", y: "5px" }}
+            >
+              <img src="images/linkedin.png" alt="LinkedIn" id = "contact_icons"/>
+
+              </motion.button>
+            </a>
+          </li>
+          <li class="nav-item">
+
+
+            <a href="https://github.com/brianchiang2012" target = "_blank">
+
+
+            <motion.button
+              style={styles}
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.9, x: "-5px", y: "5px" }}
+            >
+              <img src="images/github.png" alt="GitHub" id = "contact_icons"/>
+
+              </motion.button>
+            </a>
+          </li>
+      </div>
+    );
+}
+}
+ReactDOM.render(React.createElement(Navbar_Content), document.getElementById('navbar-content'));
+ReactDOM.render(React.createElement(About_Me_Title_Fade), document.getElementById('about_me_title'));
 ReactDOM.render(React.createElement(About_Me_Title_Fade), document.getElementById('about_me_title'));
 ReactDOM.render(React.createElement(About_Me_Content_Fade), document.getElementById('about_me_content'));
 ReactDOM.render(React.createElement(Experience_Title_Fade), document.getElementById('experience_title'));
