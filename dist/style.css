@@ -1,6 +1,10 @@
 /* Classes */
 
+html{
+scroll-behavior: smooth;
 
+
+}
 .experience-flex-box{
   /*
     Style for experience section
@@ -76,9 +80,16 @@
   align-items: center;
 }
 
-.light-yellow-background
+#down_arrow
 {
-  background-color: #FFFFE0	;
+  display: block;
+  margin-left: auto;
+  margin-right:auto;
+  margin-top: 50px;
+
+  width: 5vw;
+  height: 10vh;
+
 }
 
 .flex-container-about-me
