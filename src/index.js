@@ -12,6 +12,7 @@ const styles = {
   cursor: "pointer"
 };
 
+
 class About_Me_Title_Fade extends React.Component
 {
   render()
@@ -281,7 +282,7 @@ class Navbar_Content extends React.Component
   render(){
     return(
       <div class = "container">
-          <li class="nav-item">
+
 
             <a href="mailto:brianchiang2012@gmail.com" target= "_blank">
 
@@ -294,9 +295,9 @@ class Navbar_Content extends React.Component
                 </motion.button>
             </a>
 
-          </li>
 
-          <li class="nav-item">
+
+
             <a href="https://www.linkedin.com/in/brian-chiang-596347145/" target = "_blank">
 
 
@@ -309,8 +310,8 @@ class Navbar_Content extends React.Component
 
               </motion.button>
             </a>
-          </li>
-          <li class="nav-item">
+
+
 
 
             <a href="https://github.com/brianchiang2012" target = "_blank">
@@ -325,7 +326,7 @@ class Navbar_Content extends React.Component
 
               </motion.button>
             </a>
-          </li>
+      
       </div>
     );
 }

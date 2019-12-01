@@ -10,11 +10,12 @@
     "react-dom": "^16.10.2",
     "react-reveal": "1.2.2",
     "react-scripts": "3.2.0",
+    "scipy": "^0.1.4",
     "webpack": "^4.20.2",
     "webpack-dev-server": "^3.1.4"
   },
   "scripts": {
-        "start": "webpack --config ./webpack.config.js --mode production "
+    "start": "webpack --config ./webpack.config.js --mode production "
   },
   "eslintConfig": {
     "extends": "react-app"
