@@ -15,7 +15,7 @@
     "webpack-dev-server": "^3.1.4"
   },
   "scripts": {
-    "start": "webpack --config ./webpack.config.js --mode production "
+     "start": "webpack --config ./webpack.config.js --mode production "
   },
   "eslintConfig": {
     "extends": "react-app"

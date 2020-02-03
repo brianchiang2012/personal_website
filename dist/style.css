@@ -74,7 +74,7 @@ min-height: 100%;
   /* Style for the background text
      of the initial photo on the top
      of the screen */
-     color: white;
+     color: black;
 
 }
 .background-flex-box{
@@ -97,13 +97,11 @@ min-height: 100%;
 
 .vertical-center
 {
-  background-image: url(images/background.jpg) ;
+  /*background-image: url(images/background.jpg) ;*/
   background-size: cover;
   justify-content: center;
   width: 100%;
   min-height: 100vh;
-
-
 }
 
 #down_arrow
@@ -139,12 +137,13 @@ min-height: 100%;
   /*style for line separator
     create a solid line every time
     invoked */
-  border: 0.75px solid;
+  border: 0.1vh solid;
   width: 80vw;
   margin: auto;
   margin-top: 1%;
   margin-bottom: 2%;
   color: black;
+
 }
 
 /*IDs*/
@@ -175,8 +174,10 @@ min-height: 100%;
   /*style pictures of gmail, github, linkedin*/
   width: 50px;
   height: 50px;
-  max-width: 5vw;
-  max-height: 5vw;
+  max-width: 3vw;
+  max-height: 3vw;
+  min-height: 3vw;
+  min-width: 3vw;
 }
 
 
@@ -188,15 +189,6 @@ min-height: 100%;
     font-size: 2.5vw;
     color: #026C45;
     font-family: "Candara"
-}
-
-#icon-document
-{
-  /*style for document icon (resume download)*/
-  height: auto;
-  width: auto;
-  max-width: 25px;
-  max-height: 25px;
 }
 
 #paragraph {

@@ -5,13 +5,14 @@ import ReactDOM from 'react-dom'
 import Zoom from 'react-reveal/Zoom'
 import Fade from 'react-reveal/Fade'
 import {motion} from 'framer-motion'
+
 const styles = {
   outline: "none",
   border: "none",
   background:"none",
   cursor: "pointer"
-};
 
+};
 
 class About_Me_Title_Fade extends React.Component
 {
@@ -57,7 +58,7 @@ class About_Me_Content_Fade extends React.Component
                       whileHover={{ scale: 1.1 }}
                       whileTap={{ scale: 0.9, x: "-5px", y: "5px" }}
                     >
-                    <a href = "download/resume.pdf" download = "bchiangResume.pdf"> <div> <img src = "images/document.png" id = "icon-document"/></div>  Resume </a>
+                    <a href = "download/resume.pdf" download = "bchiangResume.pdf" id = "paragraph"> <div> <img src = "images/document.png" id = "contact_icons"/></div>  Resume </a>
                     </motion.button>
                 </div>
 
@@ -326,7 +327,7 @@ class Navbar_Content extends React.Component
 
               </motion.button>
             </a>
-      
+
       </div>
     );
 }
