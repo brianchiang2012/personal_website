@@ -12,7 +12,7 @@
     "react-scripts": "3.2.0",
     "scipy": "^0.1.4",
     "webpack": "^4.20.2",
-    "webpack-dev-server": "^3.1.4"
+    "webpack-dev-server": "^5.2.1"
   },
   "scripts": {
      "start": "webpack --config ./webpack.config.js --mode production "
