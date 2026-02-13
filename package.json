@@ -9,7 +9,7 @@
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
     "react-reveal": "1.2.2",
-    "react-scripts": "3.2.0",
+    "react-scripts": "5.0.1",
     "scipy": "^0.1.4",
     "webpack": "^4.20.2",
     "webpack-dev-server": "^3.1.4"
@@ -33,7 +33,7 @@
     ]
   },
   "devDependencies": {
-    "tsdx": "^0.10.5",
+    "tsdx": "^2.0.0",
     "webpack-cli": "^3.0.6"
   }
 }
